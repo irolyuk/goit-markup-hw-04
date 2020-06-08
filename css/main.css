@@ -79,6 +79,28 @@ img {
   color: #2196f3;
 }
 
+.mail-link::before {
+  display: inline-block;
+  content: "";
+  margin-right: 7px;
+  align-items: baseline;
+  width: 16px;
+  height: 11px;
+  background-image: url(../img/envelope.svg);
+  background-size: contain;
+}
+
+.telephone-link::before {
+  display: inline-block;
+  content: "";
+  margin-right: 7px;
+  align-items: baseline;
+  width: 10px;
+  height: 15px;
+  background-image: url(../img/vector.svg);
+  background-size: contain;
+}
+
 .current {
   color: #2196f3;
   border-bottom: 4px solid #2196f3;
@@ -194,6 +216,33 @@ img {
 
 .qualities-list .item {
   width: 270px;
+}
+
+.qualities-list .item::before {
+  display: block;
+  content: "";
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 4px;
+}
+
+.icon-antenna::before {
+  background-image: url(../img/antenna1.svg);
+}
+
+.icon-clock::before {
+  background-image: url(../img/clock1.svg);
+}
+
+.icon-diagram::before {
+  background-image: url(../img/diagram1.svg);
+}
+
+.icon-astronaut::before {
+  background-image: url(../img/astronaut1.svg);
 }
 
 .qualities-list li + li {
