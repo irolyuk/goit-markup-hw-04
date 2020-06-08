@@ -79,28 +79,6 @@ img {
   color: #2196f3;
 }
 
-.mail-link::before {
-  display: inline-block;
-  content: "";
-  margin-right: 7px;
-  align-items: baseline;
-  width: 16px;
-  height: 11px;
-  background-image: url(../img/envelope.svg);
-  background-size: contain;
-}
-
-.telephone-link::before {
-  display: inline-block;
-  content: "";
-  margin-right: 7px;
-  align-items: baseline;
-  width: 10px;
-  height: 15px;
-  background-image: url(../img/vector.svg);
-  background-size: contain;
-}
-
 .current {
   color: #2196f3;
   border-bottom: 4px solid #2196f3;
@@ -596,4 +574,46 @@ h3.title {
 .cliets-list {
   display: flex;
   justify-content: space-around;
+}
+
+.mail-link::before {
+  display: inline-block;
+  content: "";
+  margin-right: 7px;
+  align-items: baseline;
+  width: 16px;
+  height: 11px;
+  background-image: url(../img/envelope.svg);
+  background-size: contain;
+}
+
+.telephone-link::before {
+  display: inline-block;
+  content: "";
+  margin-right: 7px;
+  align-items: baseline;
+  width: 10px;
+  height: 15px;
+  background-image: url(../img/vector.svg);
+  background-size: contain;
+}
+
+.social-links li {
+  width: 44px;
+  height: 44px;
+  color: #afb1b8;
+}
+
+.social-links li:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+  border-radius: 50% 50%;
+}
+
+.link-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 12px;
+  fill: currentColor;
 }
