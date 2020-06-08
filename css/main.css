@@ -611,9 +611,24 @@ h3.title {
 }
 
 .link-icon {
-  display: inline-block;
   width: 20px;
   height: 20px;
   margin: 12px;
+  fill: currentColor;
+}
+
+.cliets-list li {
+  color: #afb1b8;
+  width: 170px;
+  height: 90px;
+  border-radius: 4px 4px 4px 4px;
+  border: 1px solid #2f303a;
+}
+
+.clients-list li:hover {
+  color: #2196f3;
+}
+
+.client-icon {
   fill: currentColor;
 }
