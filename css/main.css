@@ -514,6 +514,7 @@ h3.title {
 .footer b {
   display: inline-block;
   margin-bottom: 21px;
+  color: #ffffff;
 }
 
 .portfolio-list {
@@ -576,35 +577,36 @@ h3.title {
   justify-content: space-around;
 }
 
-.mail-link::before {
-  display: inline-block;
-  content: "";
-  margin-right: 7px;
-  align-items: baseline;
+.contact a {
+  color: #757575;
+}
+
+.contact a:hover {
+  color: #2196f3;
+}
+
+.header-icon {
+  margin-right: 5px;
   width: 16px;
   height: 11px;
-  background-image: url(../img/envelope.svg);
-  background-size: contain;
+  fill: currentColor;
 }
 
-.telephone-link::before {
-  display: inline-block;
-  content: "";
-  margin-right: 7px;
-  align-items: baseline;
+.header-tel {
   width: 10px;
   height: 15px;
-  background-image: url(../img/vector.svg);
-  background-size: contain;
 }
 
-.social-links li {
+.social-links a {
   width: 44px;
   height: 44px;
   color: #afb1b8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.social-links li:hover {
+.social-links a:hover {
   color: #ffffff;
   background-color: #2196f3;
   border-radius: 50% 50%;
@@ -613,22 +615,59 @@ h3.title {
 .link-icon {
   width: 20px;
   height: 20px;
-  margin: 12px;
   fill: currentColor;
 }
 
-.cliets-list li {
+.cliets-list a {
   color: #afb1b8;
   width: 170px;
   height: 90px;
   border-radius: 4px 4px 4px 4px;
   border: 1px solid #afb1b8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.clients-list li:hover {
-  color: #2196f3;
+.cliets-list a:hover {
+  border: 1px solid #2196f3;
 }
 
 .client-icon {
   fill: currentColor;
+}
+
+.footer-connect a {
+  color: #ffffff;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50% 50%;
+}
+
+.footer-connect li:nth-child(2) {
+  margin-left: 12px;
+}
+
+.footer-connect li:nth-child(3) {
+  margin-left: 12px;
+}
+
+.footer-connect li:nth-child(4) {
+  margin-left: 12px;
+}
+
+.footer-link-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.footer-connect a:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+  border-radius: 50% 50%;
 }
